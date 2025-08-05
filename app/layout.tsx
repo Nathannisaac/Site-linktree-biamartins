@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Desenvolvimento de sistemas, sites, aplicativos, automações e integrações com IA. Soluções personalizadas para sua empresa.",
   icons: {
-    icon: "/favicon-next-level.png",
+    icon: "/bia-martins-logo.png",
   },
     generator: 'v0.dev'
 }
