@@ -7,14 +7,6 @@ import { ArrowLeft, Award, Heart, Users, Globe, Tv, Trophy, Sparkles } from "luc
 import { Beams } from "@/components/ui/ethereal-beams-hero"
 import LoadingScreen from "@/components/loading-screen"
 
-export const metadata = {
-  title: "Sobre",
-  description: "Conheça mais sobre Bia Martins - Empreendedora Social e Forbes Under 30",
-  icons: {
-    icon: "/bia-martins-logo.png",
-  },
-}
-
 export default function SobrePage() {
   const [isLoading, setIsLoading] = useState(true)
 

@@ -17,8 +17,7 @@ export const metadata: Metadata = {
     "Desenvolvimento de sistemas, sites, aplicativos, automações e integrações com IA. Soluções personalizadas para sua empresa.",
   icons: {
     icon: "/bia-martins-logo.png",
-  },
-    generator: 'v0.dev'
+  }
 }
 
 export default function RootLayout({

@@ -1,30 +1,47 @@
-# Next level 1.0
+# Site Linktree Bia Martins
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Site pessoal da Bia Martins - Empreendedora Social e Forbes Under 30.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/thisisnathannisaac-gmailcoms-projects/v0-next-level-1-0)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/1XVN7o7j4zq)
+## Sobre
 
-## Overview
+Este é o site pessoal da Bia Martins, empreendedora social reconhecida pela Forbes Under 30. O site apresenta sua trajetória, conquistas e áreas de atuação.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Tecnologias
 
-## Deployment
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Radix UI
 
-Your project is live at:
+## Desenvolvimento
 
-**[https://vercel.com/thisisnathannisaac-gmailcoms-projects/v0-next-level-1-0](https://vercel.com/thisisnathannisaac-gmailcoms-projects/v0-next-level-1-0)**
+```bash
+# Instalar dependências
+pnpm install
 
-## Build your app
+# Executar em desenvolvimento
+pnpm dev
 
-Continue building your app on:
+# Build para produção
+pnpm build
 
-**[https://v0.dev/chat/projects/1XVN7o7j4zq](https://v0.dev/chat/projects/1XVN7o7j4zq)**
+# Executar em produção
+pnpm start
+```
 
-## How It Works
+## Estrutura
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- `/app` - Páginas e componentes da aplicação
+- `/components` - Componentes reutilizáveis
+- `/public` - Arquivos estáticos
+- `/lib` - Utilitários e configurações
+
+## Deploy
+
+O site está configurado para deploy na Vercel com as seguintes configurações:
+
+- Framework: Next.js
+- Build Command: `pnpm run build`
+- Install Command: `pnpm install`

@@ -1,5 +1,5 @@
 {
-  "name": "my-v0-project",
+  "name": "site-linktree-biamartins",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@ai-sdk/openai": "latest",
+    "@ai-sdk/openai": "^2.0.2",
     "@emotion/is-prop-valid": "latest",
     "@hookform/resolvers": "^3.9.1",
     "@radix-ui/react-accordion": "latest",
@@ -41,7 +41,7 @@
     "@radix-ui/react-tooltip": "latest",
     "@splinetool/react-spline": "latest",
     "@splinetool/runtime": "latest",
-    "ai": "latest",
+    "ai": "^5.0.2",
     "autoprefixer": "^10.4.20",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -65,7 +65,7 @@
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "latest",
-    "zod": "^3.24.1"
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^22",
